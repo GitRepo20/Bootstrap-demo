@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">   <title>Document</title>
+    <style>
+        @media screen and (min-width: 0px) and (max-width: 320px) {body {background-color: black; }}
+        @media screen and (min-width: 321px) and (max-width: 479px) {body {background-color: blueviolet; }}
+        @media screen and (min-width: 480px) and (max-width: 600px) {body {background-color: chocolate; }}
+        @media screen and (min-width: 661px) and (max-width: 768px) {body {background-color: darkgreen; }}
+        @media screen and (min-width: 769px) and (max-width: 1200px) {body {background-color: darkkhaki; }}
+        @media screen and (min-width: 1201px) {body {background-color: black; }}
+    </style>
+</head>
+<body>
+
+    <div><u>Height Parameter - h-(%size)</u></div>
+    <div class="border-top" style="height: 300px; border: 1px solid black;">       
+        <div class="bg-mute border border-danger rounded d-inline-block h-25">
+            h-25 class - height - 25% of 300px
+        </div>
+        <div class="bg-success d-inline-block h-50">
+            h-50 class - height - 50% of 300px
+        </div>
+        <div class="bg-success d-inline-block h-75">
+            h-75 class - height - 75% of 300px
+        </div>
+        <div class="bg-success d-inline-block h-100">
+            h-100 class - height - 100% of 300px
+        </div>
+        <div class="bg-success d-inline-block h-auto">
+            h-auto class - height - auto% of 300px
+        </div>
+    </div>
+    
+    <div class="border">
+        <div><u>Width 50% By class=w-50</u></div>
+        <div class="bg-success w-50">
+            Width 50% By class=w-50
+        </div>
+    </div>
+
+    <div class="border m-2 p-5">
+        <h5>text-truncate added ... at end. margin 2(class="m-2") and paading 2(class="p-5") </h5>
+        <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quis voluptate sint magni, placeat rem non maiores fugiat, debitis hic nesciunt asperiores, dolore eligendi vitae molestias suscipit sequi corrupti cum?</p>
+    </div>
+
+<div class="text-justify border">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae tempore iste ut alias vero nihil maxime illo facere obcaecati, aut quis consequatur cupiditate. Alias repellendus corrupti tempore veritatis mollitia sequi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolorum, saepe quisquam, cum possimus quae consequuntur culpa laboriosam esse, fugit minima provident officia delectus similique nemo animi praesentium maiores dolores.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, facere fugit? Facilis amet itaque harum sit distinctio, iste repudiandae facere et rem iusto a natus praesentium obcaecati velit ut excepturi?</p>
+</div>
+
+    <div class="border">
+        <h5><u>Text Case Transformation</u></h5>
+        <div class="text-lower">TEXT-LOWER</div>
+        <div class="text-upper">text-upper</div>
+        <di class="text-capitalize">text capitalize</di>
+    </div>
+
+    <div class="border">
+    <h5><u>Headings</u></h5>
+    <h1>Heading</h1>
+    <h2>Heading</h2>
+    <h3>Heading</h3>
+    <h4>Heading</h4>
+    <h5 class="h1">Heading</h5>
+    </div>
+    
+    <div class="border">
+        <div><u>Font</u></div>
+        <div class="font-weight-bold">Font Weight Bold</div>
+        <div class="font-weight-normal">Font Weight Normal</div>
+        <div class="font-italic">Font-italic</div>
+    </div>
+
+    <div class="border">
+        <div><u>Text Align</u></div>
+        <div class="text-left">class text-left</div>
+        <div class="text-center">class text-center</div>
+        <div class="text-right">class text-right</div>
+    </div>
+
+    <div class="border">
+        <div><u> Monospace Paragragh</u></div>
+        <p class="text-monospace">This is Monospace</p>
+    </div>
+    <!--list inline-->
+    <div class="border">
+    <div><u>List converted to inline element</u></div>
+    <ul class="list-inline">
+        <li class="list-inline-item">sfdf</li>
+        <li class="list-inline-item">wfdf</li>
+        <li class="list-inline-item">fsd</li>
+    </ul>
+    </div>
+
+    <!--block to inline element-->
+
+    <div class="border">
+        <div><u>d-inline class make block element to inline element.</u></div>
+        <div class="d-inline bg-success">Block div1</div>
+        <div class="d-inline bg-success">Block div2</div>
+    </div>
+    <div>
+        <div>Inline element to Block</div>
+        <span class="d-block bg-success">Inline element span</span>
+    </div>
+
+    <div class="bg-success">
+        <h1 class="m-10">success</h1>
+    </div>
+
+</body>
+</html>
